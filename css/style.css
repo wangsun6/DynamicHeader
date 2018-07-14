@@ -1,0 +1,73 @@
+.container{
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.active a{
+    color: green;
+}
+
+/* Header */
+
+header{
+    border: 2px solid rgb(197, 40, 137);
+}
+
+header nav ul{
+    padding: 0;
+    list-style: none;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 5px;
+}
+
+header nav{
+    float: right;
+    margin-top: 5px;
+}
+
+header #branding{
+    float: left;
+}
+
+/* Showcase */
+
+.showcase{
+    min-height: 450px;
+    border: 2px solid red;
+    margin-top: 10px;
+}
+
+
+/* Footer */
+footer{
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+footer p{
+    margin: 3px;
+}
+
+
+
+/* For mobile display*/
+
+@media(max-width: 700px){
+    header nav, header #branding{
+        float: none;
+    }
+
+    header nav li{
+        display: block;
+    }
+}
