@@ -17,7 +17,8 @@ You have to know 2 things about PHP, don't worry it's not related to programming
 ```php
 <?php include 'header.php'; ?>
 ```
-that's all
+
+In our example we will use same header template fore 3 pages(index/about/services). But at the same time we change the color of menu item to green, base on the page we visit.
 
 ### Header Template
 
