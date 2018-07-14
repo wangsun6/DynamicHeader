@@ -19,6 +19,8 @@ You have to know 2 things about PHP, don't worry it's not related to programming
 ```
 that's all
 
+### Header Template
+
 ```html
 <header>
    <nav>
@@ -36,6 +38,8 @@ that's all
 ```
 
 this is header template, here the important point is we have added different 'id' for each list item. Don't bother about script now.
+
+### Body of HOME/index Page
 
 ```html
 <body>
