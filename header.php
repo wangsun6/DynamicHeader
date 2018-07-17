@@ -6,7 +6,7 @@
 
         <nav>
             <ul>
-                <li id="menu_home"><a href="index.php">Home</a></li>
+                <li id="menu_home"><a href="index.php">HOME</a></li>
                 <li id="menu_about"><a href="about.php">ABOUT</a></li>
                 <li id="menu_services"><a href="services.php">SERVICES</a></li>
             </ul>
